@@ -1,0 +1,32 @@
+.hero {
+    &__container {
+        position: relative;
+        background-image: url("../images/hero-back.png");
+        background-repeat: no-repeat;
+        max-width: 1110px;
+        height: 600px;
+    }
+
+    &__content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding-top: 56px;
+        padding-right: 55px;
+        background-color: #fff;
+        max-width: 445px;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__desc {
+        max-width: 390px;
+        font-family: Ibarra Real Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.446429px;
+        color: #33323D;
+    }
+}
